@@ -11,4 +11,4 @@ while roll_again== "yes" or roll_again== "y":
     print random.randint(min,max)
     print random.randint(min,max)
 
-    roll_again = raw_input("Roll again?")
+    roll_again = raw_input("Roll again? (type yes to roll again. Type anything else to end the program.)")
