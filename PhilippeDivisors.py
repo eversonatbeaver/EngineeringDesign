@@ -1,4 +1,4 @@
-number = int(input("Enter a number and see what its divisors are (1-10): "))
+number = int(input("Enter a number and see what its divisors are (1-15): "))
 if (number % 2) == 0:
    print("{0} is divisible by 2".format(number))
 else:
@@ -35,3 +35,23 @@ if (number % 10) == 0:
       print("{0} is divisible by 10".format(number))
 else:
       print("{0} is not disible by 10".format(number))
+if (number % 11) == 0:
+      print("{0} is divisible by 11".format(number))
+else:
+      print("{0} is not disible by 11".format(number))
+if (number % 12) == 0:
+      print("{0} is divisible by 12".format(number))
+else:
+      print("{0} is not disible by 12".format(number))
+if (number % 13) == 0:
+      print("{0} is divisible by 13".format(number))
+else:
+      print("{0} is not disible by 13".format(number))
+if (number % 14) == 0:
+      print("{0} is divisible by 14".format(number))
+else:
+      print("{0} is not disible by 14".format(number))
+if (number % 15) == 0:
+      print("{0} is divisible by 15".format(number))
+else:
+      print("{0} is not disible by 15".format(number))
