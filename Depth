@@ -1,0 +1,8 @@
+print (' hello world')
+Fathoms = int(input('Enter the depth in feet you would like to convert in Fathoms: '))
+print('{}  % 6 = '.format(Fathoms))
+print(str(Fathoms /6 )+ " Fathoms")
+if Fathoms < 10:
+  print ('That is deep!')
+else:
+  print ('That is not super deep. You could probably reach the bottom')
