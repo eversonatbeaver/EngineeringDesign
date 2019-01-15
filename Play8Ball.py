@@ -13,25 +13,25 @@ while ans:
         sys.exit()
 
     elif answers == 1:
-        print "Most Certainly"
+        print "Not a chance"
 
     elif answers == 2:
-        print "Probable"
+        print "Are you kidding me?"
 
     elif answers == 3:
-        print "You can rely on it"
+        print "Never in a million years"
 
     elif answers == 4:
-        print "Ask again later"
+        print "Reconsider your question"
 
     elif answers == 5:
-        print "Concentrate and ask again"
+        print "wow....just...wow"
 
     elif answers == 6:
-        print "Reply hazy, try again"
+        print "Think before you speak"
 
     elif answers == 7:
-        print "My reply is no"
+        print "nope"
 
     elif answers == 8:
-        print "My sources say no"
+        print "Not gonna happen"
